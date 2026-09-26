@@ -48,4 +48,15 @@ header{
     color: #fff;
     
 }
+.container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 
+}
+img {
+    border-radius: 50px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
