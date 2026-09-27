@@ -38,15 +38,22 @@ header{
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
 
 }
 .navbar ul li{
+    margin-left: 20px;
     display: inline;
     margin: 0 1em;
 }
 .navbar ul li a {
     color: #fff;
+    text-decoration: none;
+    font-weight: bold;
     
+}
+.navbar ul li a:hover{
+    color: #00adb5;
 }
 .container{
     display: flex;
@@ -59,4 +66,18 @@ img {
     width: 120px;
     height: 120px;
     object-fit: cover;
+}
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}
+.skills-list li{
+    background: #00adb5;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+
 }
